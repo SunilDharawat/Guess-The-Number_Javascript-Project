@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.wrapper .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.form-container label {
+    font-size: 3rem;
+}
+.form-container .input-guess {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+#guessinput {
+    text-align: center;
+}
+.resultParas{
+    padding-bottom: 20px;
+}
+.resultParas p span{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lavender;
+}
+.button {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
